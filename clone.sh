@@ -7,13 +7,14 @@ fi
 
 ## Clone BabyCare repositories ##
 
-git clone git@github.com:BabyCare-EIP/BabyCare.git
+git_repositories=(git@github.com:BabyCare-EIP/BabyCare.git
+                  git@github.com:BabyCare-EIP/Website.git
+                  git@github.com:BabyCare-EIP/Watcher.git
+                  git@github.com:BabyCare-EIP/Mobile.git
+                  )
 
-git clone git@github.com:BabyCare-EIP/Website.git
+git clone ${git_repositories[@]}
 
-git clone git@github.com:BabyCare-EIP/Watcher.git
-
-git clone git@github.com:BabyCare-EIP/Mobile.git
 
 ## Node version configuration ##
 
