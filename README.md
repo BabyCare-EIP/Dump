@@ -1,7 +1,8 @@
 # Dump
 BabyCare dump for developers
 
-First of all, you need to be on Ubuntu LTS. You can get it on :
+First of all, you need to be on Ubuntu LTS. 
+You can get it on :
 https://www-ftp.lip6.fr/pub/linux/distributions/Ubuntu/releases/20.04.3/ubuntu-20.04.3-desktop-amd64.iso
 
 You can create a bootable usb with Rufus : https://rufus.ie/en/
