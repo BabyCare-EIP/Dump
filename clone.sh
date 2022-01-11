@@ -14,3 +14,7 @@ git clone git@github.com:BabyCare-EIP/Website.git
 git clone git@github.com:BabyCare-EIP/Watcher.git
 
 git clone git@github.com:BabyCare-EIP/Mobile.git
+
+## Node version configuration ##
+
+nvm install 16.13.2
