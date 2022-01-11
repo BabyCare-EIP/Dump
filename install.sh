@@ -29,6 +29,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
 
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.28.1_amd64.deb
+
 ## npm packages ## 
 
 npm_packages=(yarn
@@ -51,6 +53,7 @@ npm i -g ${npm_packages[@]}
 
 gdebi GitHubDesktop-linux-2.9.3-linux3.deb
 dpkg -i google-chrome-stable_current_amd64.deb
+apt install ./mongodb-compass_1.28.1_amd64.deb
 
 snap install telegram-desktop
 snap install notion-snap
@@ -63,6 +66,10 @@ snap install teams
 # snap install brave
 # snap install code --classic
 # snap install spotify
+
+## Clean packages ##
+
+rm *.deb
 
 ## SSH Key ##
 
