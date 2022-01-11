@@ -4,7 +4,7 @@ BabyCare dump for developers
 First of all, you have to run this command :
 
 ```bash git clone https://github.com/BabyCare-EIP/Dump.git
-mv dump /tmp && cd /tmp/dump
+mv Dump /tmp && cd /tmp/Dump
 chmod +x *.sh
 sudo ./install.sh
 ```
