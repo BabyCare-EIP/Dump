@@ -68,3 +68,4 @@ snap install teams
 ## SSH Key ##
 
 ssh-keygen -q -P ¨¨
+cat .ssh/id_rsa.pub
