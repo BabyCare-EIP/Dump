@@ -9,8 +9,7 @@ fi
 
 apt update -y
 
-
-packages=(curl
+apt_packages=(curl
 	  wget
 	  gdebi-core
 	  nodejs
@@ -19,7 +18,7 @@ packages=(curl
 	  docker
 	  docker-compose)
 
-apt install -y ${packages[@]}
+apt install -y ${apt_packages[@]}
 
 
 ## Downloads ##
