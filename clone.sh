@@ -18,4 +18,4 @@ git clone ${git_repositories[@]}
 
 ## Node version configuration ##
 
-nvm install 16.13.2
+nvm install 16.14.2
