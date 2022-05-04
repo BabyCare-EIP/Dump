@@ -3,7 +3,7 @@ BabyCare dump for developers
 
 First of all, you need to be on Ubuntu LTS. 
 You can get it on :
-https://ubuntu.com/download/desktop
+https://ubuntu.com/download/desktop.
 You can create a bootable usb with Rufus : https://rufus.ie/en/
 
 Once Ubuntu LTS is installed, you have to run this command :
@@ -31,6 +31,7 @@ Let's generate your pgp key :
 ```bash
 $gpg --full-generate-key
 ```
+
 Choose 1, 4096, 0.
 
 ```bash
