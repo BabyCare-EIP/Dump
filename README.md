@@ -29,25 +29,25 @@ $ git config user.email ""
 
 Let's generate your pgp key :
 ```bash
-$gpg --full-generate-key
+$ gpg --full-generate-key
 ```
 
 Choose 1, 4096, 0.
 
 ```bash
-$gpg --list-secret-keys --keyid-format LONG
+$ gpg --list-secret-keys --keyid-format LONG
 ```
 copy your id key and replace it on the next command
 your id key is here : sec   rsa4096/[THIS_KEY_ID]
 
 ```bash
-$gpg --armor --export [THIS_KEY_ID]
+$ gpg --armor --export [THIS_KEY_ID]
 ```
 
 ```bash
-$git config --global user.signingkey [THIS_KEY_ID]
+$ git config --global user.signingkey [THIS_KEY_ID]
 ```
 
 ```bash
-$git config --global commit.gpgsign true
+$ git config --global commit.gpgsign true
 ```
