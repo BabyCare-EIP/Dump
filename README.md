@@ -37,8 +37,8 @@ Choose 1, 4096, 0.
 ```bash
 $ gpg --list-secret-keys --keyid-format LONG
 ```
-copy your id key and replace it on the next command
-your id key is here : sec   rsa4096/[THIS_KEY_ID]
+Your id key is looking like this : sec rsa4096/[THIS_KEY_ID].
+Copy your id key and replace it on the next command
 
 ```bash
 $ gpg --armor --export [THIS_KEY_ID]
