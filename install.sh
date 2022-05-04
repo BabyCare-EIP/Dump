@@ -14,6 +14,7 @@ apt_packages=(curl
 	  gdebi-core
 	  nodejs
 	  npm
+	  nvm
 	  snap
 	  docker
 	  docker-compose)
@@ -55,17 +56,12 @@ gdebi GitHubDesktop-linux-2.9.3-linux3.deb
 dpkg -i google-chrome-stable_current_amd64.deb
 apt install ./mongodb-compass_1.28.1_amd64.deb
 
-snap install telegram-desktop
 snap install notion-snap
 snap install figma-linux
 snap install webstorm --classic
+snap install code --classic
+snap install discord
 snap install teams
-
-## Optional
-
-# snap install brave
-# snap install code --classic
-# snap install spotify
 
 ## Clean packages ##
 
